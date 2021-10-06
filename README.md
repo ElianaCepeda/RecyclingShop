@@ -1,9 +1,10 @@
 # RecyclingShop
-Config files for my GitHub profile.
 
-Crear base de datos recyclingshopbd en un servidor postgresql local
+Instalar PostgreSQL en la maquina local
 
 Crear un usuario postgres con el mismo nombre como password
+
+Crear base de datos recyclingshopbd en el servidor postgresql local
 
 Después importar el archivo
 
