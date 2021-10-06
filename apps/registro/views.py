@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template.context_processors import request
 
 
 def index(request):
@@ -16,3 +17,5 @@ def index(request):
     return HttpResponse(salida)
 
 # Create your views here.
+def registroform(request):
+    return render(request, 'registro.html')
